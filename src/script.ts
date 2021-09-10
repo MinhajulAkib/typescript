@@ -35,3 +35,10 @@ let person ={
 
 person.country = 'sakib';
 console.log(person.name);
+
+
+//any
+let a :any;
+a = 5;
+a = 'sumit';
+console.log(a);

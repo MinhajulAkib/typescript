@@ -24,3 +24,8 @@ var person = {
 };
 person.country = 'sakib';
 console.log(person.name);
+//any
+var a;
+a = 5;
+a = 'sumit';
+console.log(a);
