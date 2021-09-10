@@ -12,3 +12,15 @@ function multiply(a, b) {
 }
 console.log(multiply(2, 3));
 //ARRAY
+var mixed = ['banana', 4, false, {}];
+mixed.push('orange', 5);
+console.log(mixed);
+//object
+var person = {
+    name: "akib",
+    age: 24,
+    country: 'Bangladesh',
+    isName: true
+};
+person.country = 'sakib';
+console.log(person.name);

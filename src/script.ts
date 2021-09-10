@@ -19,3 +19,19 @@ console.log(multiply(2,3));
 
 
 //ARRAY
+let mixed = ['banana', 4, false, {}];
+mixed.push('orange', 5);
+console.log(mixed);
+
+
+//object
+
+let person ={
+    name:"akib",
+    age:24,
+    country: 'Bangladesh',
+    isName: true
+}
+
+person.country = 'sakib';
+console.log(person.name);
