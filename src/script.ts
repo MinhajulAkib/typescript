@@ -42,3 +42,18 @@ let a :any;
 a = 5;
 a = 'sumit';
 console.log(a);
+
+
+
+//how to use function
+let myFunc = () => {
+    console.log('hello');
+}
+myFunc();
+
+
+
+const myhFunc = (a:number, b:number, c:string = 'true'): number =>{
+        return a + b;
+}
+console.log(myhFunc(3,5));

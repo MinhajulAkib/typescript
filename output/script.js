@@ -29,3 +29,13 @@ var a;
 a = 5;
 a = 'sumit';
 console.log(a);
+//how to use function
+var myFunc = function () {
+    console.log('hello');
+};
+myFunc();
+var myhFunc = function (a, b, c) {
+    if (c === void 0) { c = 'true'; }
+    return a + b;
+};
+console.log(myhFunc(3, 5));
