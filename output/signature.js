@@ -1,13 +1,13 @@
 "use strict";
 //simple signature function
-var add;
-add = function (a, b) {
+let add;
+add = (a, b) => {
     return a + b;
 };
 //console.log(add(3, 4));
 //complex calculation
-var calculation;
-calculation = function (a, b, c) {
+let calculation;
+calculation = (a, b, c) => {
     if (c == "add") {
         return a + b;
     }

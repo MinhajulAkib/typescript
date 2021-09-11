@@ -1,41 +1,8 @@
-"use strict";
-console.log('hello');
-var country = 'i love bangladesh';
-console.log(country);
-var playerName = 'mashrafi';
-console.log(playerName);
-//playerName = 34;
-//console.log(playerName);
-//function
-function multiply(a, b) {
-    return a * b;
-}
-console.log(multiply(2, 3));
-//ARRAY
-var mixed = ['banana', 4, false, {}];
-mixed.push('orange', 5);
-console.log(mixed);
-//object
-var person = {
-    name: "akib",
-    age: 24,
-    country: 'Bangladesh',
-    isName: true
-};
-person.country = 'sakib';
-console.log(person.name);
-//any
-var a;
-a = 5;
-a = 'sumit';
-console.log(a);
-//how to use function
-var myFunc = function () {
-    console.log('hello');
-};
-myFunc();
-var myhFunc = function (a, b, c) {
-    if (c === void 0) { c = 'true'; }
-    return a + b;
-};
-console.log(myhFunc(3, 5));
+import { player } from './classes/player.js';
+const mashrafi = new player('mashrafi', 40, 'bangladesh');
+const sakib = new player('sakib', 38, 'Bangladesh');
+console.log(mashrafi.age);
+console.log(sakib.country);
+const players = [];
+players.push(sakib);
+players.push(mashrafi);
