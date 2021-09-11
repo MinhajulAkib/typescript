@@ -64,19 +64,36 @@ addID(user);
 
 //interface using generics
 
+// interface airResponse<T>{
+//     status: number;
+//     type: string;
+//     data: T;
+// }
+// const response1: airResponse<string> ={
+//     status: 200,
+//     type: 'good',
+//     data: 'test'
+
+// }
+
+
+
+//Enum
+
+enum Rtype { SUCCESS, FAILURE, UNAUTHINTICATED, FORBIDDEN};
+
 interface airResponse<T>{
     status: number;
-    type: string;
+    type: Rtype;
     data: T;
 }
 const response1: airResponse<string> ={
     status: 200,
-    type: 'good',
+    type: Rtype.FORBIDDEN,
     data: 'test'
 
 }
-
-
+console.log(response1);
 
 
 
