@@ -8,3 +8,4 @@ export class player {
         console.log(`${this.name} from{this.country} is playing`);
     }
 }
+

@@ -7,3 +7,22 @@ console.log(sakib.country);
 const players: player[] = [];
 players.push(sakib);
 players.push(mashrafi);
+
+
+
+//interfaces
+interface rectanglerOptions{
+    width: number,
+    length: number,
+}
+function drawRectangle(options: rectanglerOptions){
+    let width = options.width;
+    let length = options.length;
+}
+let threeDrectangle = {
+    width: 30,
+    length: 20,
+    height: 10,
+}
+
+drawRectangle(threeDrectangle);

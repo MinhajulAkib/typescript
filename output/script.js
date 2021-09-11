@@ -6,3 +6,13 @@ console.log(sakib.country);
 const players = [];
 players.push(sakib);
 players.push(mashrafi);
+function drawRectangle(options) {
+    let width = options.width;
+    let length = options.length;
+}
+let threeDrectangle = {
+    width: 30,
+    length: 20,
+    height: 10,
+};
+drawRectangle(threeDrectangle);
