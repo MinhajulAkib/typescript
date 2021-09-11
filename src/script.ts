@@ -62,4 +62,22 @@ addID(user);
 
 
 
+//interface using generics
+
+interface airResponse<T>{
+    status: number;
+    type: string;
+    data: T;
+}
+const response1: airResponse<string> ={
+    status: 200,
+    type: 'good',
+    data: 'test'
+
+}
+
+
+
+
+
 
