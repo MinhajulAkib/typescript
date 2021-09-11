@@ -41,5 +41,25 @@ drawRectangle(threeDrectangle);
 
 
 //generics
+/*const addID = <T extends{
+    name: string;
+    age: number;
+}
+>(
+    obj: T) => {
+    let id = Math.floor(Math.random() * 100);
+    return {...obj, id};
+};
+
+let user = addID({
+    name: 'mashrafi',
+    age: 45,
+    country: 'bangadesh',
+});
+
+addID(user);
+*/
+
+
 
 
