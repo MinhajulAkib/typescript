@@ -1,17 +1,27 @@
 import { player } from './classes/player.js';
+import { isPlayer } from './interfaces/isPlayer.js';
+
 const mashrafi = new player('mashrafi', 40, 'bangladesh');
-const sakib = new player('sakib', 38, 'Bangladesh');
+
+let sakib: isPlayer;
+sakib = new player('sakib', 38, 'Bangladesh');
+
+
 console.log(mashrafi.age);
 console.log(sakib.country);
 
-const players: player[] = [];
+const players: isPlayer[] = [];
 players.push(sakib);
 players.push(mashrafi);
 
 
 
+
+
+
+
 //interfaces
-interface rectanglerOptions{
+/*interface rectanglerOptions{
     width: number,
     length: number,
 }
@@ -26,3 +36,10 @@ let threeDrectangle = {
 }
 
 drawRectangle(threeDrectangle);
+*/
+
+
+
+//generics
+
+
